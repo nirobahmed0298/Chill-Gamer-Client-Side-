@@ -19,7 +19,7 @@ const UpdateReview = () => {
         let userName = e.target.userName.value;
         let userEmail = e.target.email.value;
         let reviewUpdateItem = { gamePhoto, gameName, gameDescription, gameRating, gameYear, gameCategory, userName, userEmail, };
-        fetch(`http://localhost:5000/allreviews/${reviewUpdate._id}`, {
+        fetch(`https://chill-gamer-server-lac.vercel.app/allreviews/${reviewUpdate._id}`, {
             method: 'PUT',
             headers: {
                 'content-type': 'application/json',

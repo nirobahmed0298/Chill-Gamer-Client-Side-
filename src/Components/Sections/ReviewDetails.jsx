@@ -6,7 +6,7 @@ import Swal from 'sweetalert2';
 const ReviewDetails = () => {
     let reviewDetails = useLoaderData();
     let handleWatchlist = () => {
-        fetch('http://localhost:5000/watchlist', {
+        fetch('https://chill-gamer-server-lac.vercel.app/watchlist', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json',

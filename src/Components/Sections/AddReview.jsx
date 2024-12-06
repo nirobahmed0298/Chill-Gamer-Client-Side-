@@ -18,7 +18,7 @@ const AddReview = () => {
         let userName = e.target.userName.value;
         let userEmail = e.target.email.value;
         let addReview = { gamePhoto, gameName, gameDescription, gameRating, gameYear, gameCategory, userName, userEmail, };
-        fetch('http://localhost:5000/allreviews', {
+        fetch('https://chill-gamer-server-lac.vercel.app/allreviews', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json',

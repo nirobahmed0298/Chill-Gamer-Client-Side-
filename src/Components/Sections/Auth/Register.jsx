@@ -28,7 +28,7 @@ const Register = () => {
             .then((result) => {
                 let newUser = { name, email }
                 //Send DB
-                fetch('http://localhost:5000/users', {
+                fetch('https://chill-gamer-server-lac.vercel.app/users', {
                     method: 'POST',
                     headers: {
                         'content-type': 'application/json',

@@ -7,7 +7,6 @@ const GameWatchlist = () => {
     let data = useLoaderData()
     let [reviews, setReviews] = useState(data);
     let { user } = useContext(AuthContext)
-    console.log(user.email);
     let handleWatchlistDelate = (_id) => {
         Swal.fire({
             title: "Are you sure?",
@@ -19,7 +18,7 @@ const GameWatchlist = () => {
             confirmButtonText: "Yes, delete it!"
         }).then((result) => {
             if (result.isConfirmed) {
-                fetch(`http://localhost:5000/watchlist/${_id}`, {
+                fetch(`https://chill-gamer-server-lac.vercel.app/watchlist/${_id}`, {
                     method: "DELETE",
                 })
                     .then(res => res.json())
@@ -58,8 +57,8 @@ const GameWatchlist = () => {
                                 user.email === review.userEmail && <tr key={index} className="hover">
                                     <th>{index + 1}</th>
                                     <th>{review.gameName}</th>
-                                    <td>{review.gameCategory}</td>
                                     <td>{review.userName}</td>
+                                    <td>{review.userEmail}</td>
                                     <td>
                                         <button onClick={() => handleWatchlistDelate(review._id)} className='btn btn-sm rounded-none px-4 bg-red-500 text-white text-[16px]'><MdDelete></MdDelete></button>
                                     </td>
