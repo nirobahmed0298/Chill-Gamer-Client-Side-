@@ -1,4 +1,14 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+body{
+    font-family: "Raleway", serif;
+}
+a.active{
+    background-color: #4ADE80;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+    padding: 4px 10px;
+}
