@@ -10,7 +10,7 @@ const Banner = () => {
             <div id="slide1" className="carousel-item relative w-full h-[100vh]">
                 <img src={banner1} className="w-full h-full" />
                 <div className='w-full absolute top-[25%] bottom-[25%] text-white text-center space-y-2'>
-                    <h1 className='text-2xl md:text-5xl font-bold'>
+                    <h1 className='text-3xl md:text-5xl font-bold'>
                         <Typewriter
                             words={['Fortnite Battle Royale']}
                             loop={3}
@@ -20,7 +20,7 @@ const Banner = () => {
                             deleteSpeed={50}
                             delaySpeed={1000}
                         /></h1>
-                    <p className='text-sm'>A fast-paced, free-to-play battle royale game that has remained one of the most <br /> popular online games. Known for its building mechanics, regular updates, and collaboration with various franchises.</p>
+                    <p className='text-xs md:text-sm'>A fast-paced, free-to-play battle royale game that has remained one of the most <br /> popular online games. Known for its building mechanics, regular updates, and collaboration with various franchises.</p>
                     <button className='btn rounded-none bg-green-400 border-none text-white font-semibold'>Explore More <FaArrowCircleRight></FaArrowCircleRight></button>
                 </div>
                 <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">

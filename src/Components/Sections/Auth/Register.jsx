@@ -60,30 +60,30 @@ const Register = () => {
     }
     return (
         <div>
-            <div className='w-5/12 mx-auto my-10 shadow-2xl rounded-xl'>
+            <div className='md:w-5/12 mx-auto my-10 shadow-2xl rounded-xl dark:border'>
                 <form onSubmit={handleRegister} className="card-body">
                     <h1 className='text-green-500 text-center text-2xl font-bold'>Register</h1>
                     <div className="form-control">
                         <label className="label">
-                            <span className="label-text">Name</span>
+                            <span className="label-text dark:text-white">Name</span>
                         </label>
                         <input type="text" placeholder="Name" name='name' className="input input-bordered" required />
                     </div>
                     <div className="form-control">
                         <label className="label">
-                            <span className="label-text">Photo</span>
+                            <span className="label-text dark:text-white">Photo</span>
                         </label>
                         <input type="text" placeholder="Your Photo URL" name='PhotoUrl' className="input input-bordered" required />
                     </div>
                     <div className="form-control">
                         <label className="label">
-                            <span className="label-text">Email</span>
+                            <span className="label-text dark:text-white">Email</span>
                         </label>
                         <input type="email" placeholder="email" name='email' className="input input-bordered" required />
                     </div>
                     <div className="form-control">
                         <label className="label">
-                            <span className="label-text">Password</span>
+                            <span className="label-text dark:text-white">Password</span>
                         </label>
                         <input type="password" placeholder="password" name='password' className="input input-bordered" required />
                     </div>

@@ -35,18 +35,18 @@ const Login = () => {
 
     return (
         <section>
-            <div className='md:w-5/12 mx-auto my-10 shadow-2xl rounded-xl'>
+            <div className='md:w-5/12 mx-auto my-10 shadow-2xl rounded-xl dark:border'>
                 <form onSubmit={handleLogin} className="card-body">
                     <h1 className='text-center text-2xl font-bold'>Login</h1>
                     <div className="form-control">
                         <label className="label">
-                            <span className="label-text">Email</span>
+                            <span className="label-text dark:text-white">Email</span>
                         </label>
                         <input type="email" placeholder="Enter your email" name='email' className="input rounded-md input-bordered" required/>
                     </div>
                     <div className="form-control">
                         <label className="label">
-                            <span className="label-text">Password</span>
+                            <span className="label-text dark:text-white">Password</span>
                         </label>
                         <input type="password" placeholder="Enter your password" name='password' className="input rounded-md input-bordered" required/>
                         <label className="label">
