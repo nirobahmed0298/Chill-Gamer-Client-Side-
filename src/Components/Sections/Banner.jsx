@@ -9,7 +9,7 @@ const Banner = () => {
         <div className="carousel w-full rounded-xl">
             <div id="slide1" className="carousel-item relative w-full h-[100vh]">
                 <img src={banner1} className="w-full h-full" />
-                <div className='w-full absolute top-[25%] bottom-[25%] text-white text-center space-y-2'>
+                <div className='w-full absolute top-[30%] md:top-[40%] bottom-[25%] text-white text-center space-y-2'>
                     <h1 className='text-3xl md:text-5xl font-bold'>
                         <Typewriter
                             words={['Fortnite Battle Royale']}
@@ -30,7 +30,7 @@ const Banner = () => {
             </div>
             <div id="slide2" className="carousel-item relative w-full h-[100vh]">
                 <img src={banner2} className="w-full h-full" />
-                <div className='w-full absolute top-[25%] bottom-[25%] text-white text-center space-y-2'>
+                <div className='w-full absolute top-[30%] md:top-[40%] bottom-[25%] text-white text-center space-y-2'>
                     <h1 className='text-2xl md:text-5xl font-bold'>
                         <Typewriter
                             words={['Call of Duty : Warzone 2.0']}
@@ -52,17 +52,17 @@ const Banner = () => {
             </div>
             <div id="slide3" className="carousel-item relative w-full h-[100vh]">
                 <img src={banner3} className="w-full h-full" />
-                <div className='w-full absolute top-[25%] bottom-[25%] text-white text-center space-y-2'>
+                <div className='w-full absolute top-[30%] md:top-[40%] bottom-[25%] text-white text-center space-y-2'>
                     <h1 className='text-2xl md:text-5xl font-bold'>
                         <Typewriter
                             words={['League of Legends']}
-                            loop = {3}
+                            loop={3}
                             cursor
-                            cursorStyle = '_'
-                            typeSpeed = { 70}
-                            deleteSpeed = { 50}
-                            delaySpeed = { 1000}
-                                />
+                            cursorStyle='_'
+                            typeSpeed={70}
+                            deleteSpeed={50}
+                            delaySpeed={1000}
+                        />
                     </h1>
                     <p className='text-sm'>
                         A highly competitive, team-based strategy game where two teams of five <br /> players fight to destroy the opponent's Nexus. It’s known for its complex gameplay, character diversity, and esports scene.

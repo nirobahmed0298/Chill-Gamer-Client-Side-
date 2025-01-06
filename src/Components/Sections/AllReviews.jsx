@@ -18,7 +18,7 @@ let AllReviews = () => {
     };
 
     return (
-        <div className='w-11/12 mx-auto mt-2 mb-10 text-center'>
+        <div className='w-11/12 mx-auto mt-20 mb-10 text-center'>
             <h1 className='text-xl text-center md:text-4xl font-bold border-b border-green-500 inline-block pb-3'>All Reviews</h1>
             <div className='my-4'>
                 <button onClick={handleSorted} className='btn mr-4 rounded-sm border border-b-green-500 shadow-xl border-e-emerald-500'>

@@ -29,7 +29,7 @@ const ReviewDetails = () => {
             })
     }
     return (
-        <div className='md:w-8/12 mx-auto mb-8 mt-2'>
+        <div className='md:w-8/12 mx-auto mt-24 mb-6'>
             <div className="card lg:card-side bg-base-100 dark:bg-black dark:border shadow-xl relative">
                 <figure className='md:w-[800px] h-[500px]'>
                     <img className='w-full h-full'

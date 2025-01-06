@@ -1,4 +1,6 @@
 import React from 'react';
+import { FaFacebook, FaTwitter, FaWhatsapp } from 'react-icons/fa';
+import { FaWebAwesome } from 'react-icons/fa6';
 import { Link } from 'react-router-dom';
 const Footer = () => {
     return (
@@ -10,6 +12,11 @@ const Footer = () => {
                     <br />
                     Providing reliable tech since 2024.
                 </p>
+                <ul className='flex gap-3'>
+                    <li className='border rounded-full text-xl bg-green-500 text-white transition duration-500 hover:bg-white hover:text-black p-2'><FaFacebook></FaFacebook></li>
+                    <li className='border rounded-full text-xl bg-green-500 text-white transition duration-500 hover:bg-white hover:text-black p-2'><FaTwitter></FaTwitter></li>
+                    <li className='border rounded-full text-xl bg-green-500 text-white transition duration-500 hover:bg-white hover:text-black p-2'><FaWhatsapp></FaWhatsapp></li>
+                </ul>
             </aside>
             <nav>
                 <h6 className="footer-title">Game Links</h6>

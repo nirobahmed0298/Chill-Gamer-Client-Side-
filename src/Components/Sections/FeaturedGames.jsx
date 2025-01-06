@@ -9,7 +9,7 @@ import { TbWorldWww } from 'react-icons/tb';
 import { Fade, Zoom } from 'react-awesome-reveal';
 const FeaturedGames = () => {
     return (
-        <div className='w-11/12 mx-auto my-10 text-center'>
+        <div className='w-11/12 mx-auto mt-10 mb-2 text-center'>
             <h1 className='text-xl md:text-4xl font-bold border-b border-green-500 inline-block pb-3'>Featured Games</h1>
             <Fade duration={2000} delay={200}>
                 <div className='grid gap-2 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 my-8 '>
