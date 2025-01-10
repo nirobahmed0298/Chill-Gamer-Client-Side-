@@ -41,7 +41,7 @@ const MyReview = () => {
 
     }
     return (
-        <div className='w-10/12 mx-auto my-6 dark:border dark:text-white'>
+        <div className='w-10/12 mx-auto mt-14 dark:border dark:text-white'>
             <div className="overflow-x-auto">
                 <table className="table">
                     {/* head */}
