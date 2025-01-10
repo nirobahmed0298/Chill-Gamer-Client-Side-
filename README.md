@@ -2,6 +2,8 @@
 
 **Website Link** : https://chill-gamer-cfbb4.web.app/
 
+**Server Side Link** : https://github.com/nirobahmed0298/Chill-Gamer-Server-Side
+
 **npm packages** : 
 - React Awesome Reveal 
 * React Simple Typewriter
